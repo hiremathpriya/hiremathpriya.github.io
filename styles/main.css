@@ -1,11 +1,11 @@
-title {
-  color : red;
+.title {
+  color : blue;
   font-style: oblique;
 }
 p {
-  color : yellow;
+  color : #ff0099;
   font-family: cursive;
-  font-size: 70px;
+  font-size: 30px;
   background-color: inherit;
-  
+
 }
