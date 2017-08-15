@@ -1,0 +1,11 @@
+title {
+  color : red;
+  font-style: oblique;
+}
+p {
+  color : yellow;
+  font-family: cursive;
+  font-size: 70px;
+  background-color: inherit;
+  
+}
