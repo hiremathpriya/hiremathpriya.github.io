@@ -2,12 +2,18 @@
   color : blue;
   font-style:oblique;
   font-family: oblique;
-  
+  text-align: center;
 }
 p {
   color : #ff0099;
   font-family: cursive;
   font-size: 25px;
   background-color: transparent;
-
+}
+.image {
+  background-repeat: no-repeat;
+  height: 431px;
+  width:622px;
+  align-content: center;
+  display: inline-block;
 }
