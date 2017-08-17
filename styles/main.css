@@ -1,11 +1,13 @@
 .title {
   color : blue;
-  font-style: oblique;
+  font-style:oblique;
+  font-family: oblique;
+  
 }
 p {
   color : #ff0099;
   font-family: cursive;
-  font-size: 30px;
-  background-color: inherit;
+  font-size: 25px;
+  background-color: transparent;
 
 }
