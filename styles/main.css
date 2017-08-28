@@ -17,3 +17,7 @@ p {
   align-content: center;
   display: inline-block;
 }
+.background-image {
+  height: inherit;
+  width: inherit;
+}
