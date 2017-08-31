@@ -22,6 +22,18 @@ p {
   display: inline-block;
   border: 1px solid white;
 }
+/*tech-t2-p2*/
+.image1 {
+  height: 440px;
+  width: 800px;
+  /*border: 5px solid white;*/
+}
+/*tech2 p-1*/
+.image2 {
+  width: 646px;
+  height: 283px;
+  border: 1px solid white;
+}
 .background-image {
   height: inherit;
   width: inherit;
@@ -68,4 +80,7 @@ ol {
 }
 ul {
   color: antiquewhite;
+}
+.links {
+  display: inline-block;
 }
