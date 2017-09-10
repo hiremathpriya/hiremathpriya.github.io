@@ -189,3 +189,10 @@ body {
           .question {
             font-weight: bold;
           }
+        /*  .gradients {
+            background:  blue; /* For browsers that do not support gradients */
+  /*  background: -gra-webkit-lineardient(black, lightgrey); /* For Safari 5.1 to 6.0 */
+  /*  background: -o-linear-gradient(black, lightgrey); /* For Opera 11.1 to 12.0 */
+  /*  background: -moz-linear-gradient(black, lightgrey); /* For Firefox 3.6 to 15 */
+  /*  background: linear-gradient(black, lightgrey); /* Standard syntax (must be last) */
+}
