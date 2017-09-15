@@ -175,10 +175,13 @@ body {
             border: 1px solid white;
           }
 
-          p {
+          /*p {
             text-align: center;
-          }
+          }*/
           .blog-text {
+            text-align: left;
+          }
+          .blog-text answer {
             text-align: left;
           }
 
