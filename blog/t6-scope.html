@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="stylesheet" href="../styles/main.css" style="text/css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" style="text/css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" style="text/css"/>
+
+
+<head><title> My Web-Page</title>
+
+</head>
+<body>
+  <a href="../index.html">Back Home</a>
+
+
+  <div class="main-banner column">
+    <h1>One Mum - Her Journey</h1>
+
+  </div>
+
+  <!-- container blog / left column -->
+  <div class="container-blog eight columns">
+
+    <!-- blog summary -->
+    <div class="summary-blog lightgrey-border">
+
+      <div class="image">
+        <img src="../images/tech.jpg " width="400px" height="200px"/>
+      </div>
+
+      <!--  <div class="inline-block">-->
+
+      <div>
+
+
+
+        <h6><strong>t6-scope.html</strong></h6>
+        <p class="blog-text answer">
+
+
+
+          <p>
+
+
+            What 'scope' is, and how it works in JavaScript.
+            In the JavaScript language there are two types of scopes:
+            <ul>
+
+            </ul>
+            <li>Global Scope</li>
+            <li>Local Scope </li></ul>
+            <p>
+              <p>
+                If I have to tell my friend about the scope then I will give very simple example,
+                Say you live in 12 story building with flats(apartments),
+                and at the basement of that building has a laundry for the people who live in that building.
+                Everyone who lives in that building has a access to that laundry that is a GLOBAL SCOPE</p>
+                <p>
+                  Now, think your apartment is on the second floor and only way to get inside or access your house will only be done by you,
+                  as yo have the key to your own house, and that is like a local scope.</p>
+
+                </p>
+
+
+                <p>
+
+                Variables defined inside a function are in local scope while variables defined outside of a function are in the global scope.
+                Each function when invoked creates a new scope.</p>
+                <bold>Global scope</bold>
+                When you start writing JavaScript in a document, you are already in the Global scope.
+                 There is only one Global scope throughout a JavaScript document. A variable is in the Global scope if it's defined outside of a function.
+              </p>
+              <p>
+
+
+                // the scope is by default global<br />
+                var name = 'Priya';<br />
+
+                Variables inside the Global scope can be accessed and altered in any other scope.<br />
+
+                var name = 'Priya';<br />
+
+                console.log(name); // logs 'Priya'<br />
+
+                function logName() {<br />
+                  console.log(name); // 'name' is accessible here and everywhere else<br />
+                }<br />
+
+                logName(); // logs 'Priya'<br />
+
+              </P>
+              <p>
+
+
+                <bold>Local scope  </bold> <br />
+
+                Variables defined inside a function are in the local scope. And they have a different scope for every call of that function.
+                This means that variables having the same name can be used in different functions.
+                This is because those variables are bound to their respective functions,
+                each having different scopes, and are not accessible in other functions.
+              </P>
+
+              <p style="border: 1px solid lightgrey; background-color: lightgrey">
+
+                // Global Scope<br />
+                function someFunction() {<br />
+                  // Local Scope #1<br />
+                }<br />
+
+                  function someOtherFunction() {<br />
+                    // Local Scope #2<br />
+                  }<br />
+
+
+                // Global Scope<br />
+                function anotherFunction() {<br />
+                  // Local Scope #3<br />
+                }<br />
+
+                // Global Scope<br />
+
+              </p>
+
+              <p>
+
+
+                Global scope lives as long as your application lives. Local Scope lives as long as your functions are called and executed.
+              </p>
+
+
+            </p>
+
+
+
+
+
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- blog summary -->
+
+  </div>
+
+</div>
+
+
+<div class="container-sidebar three columns">
+  <div class="About-author lightgrey-border">
+    <h6><strong>ABOUT-AUTHOR</strong></h6>
+
+
+    <div class="my-image">
+
+      <img src="../images/priya.jpg" height="160px"; width="139px;" style="border-radius:60px"/>
+    </div>
+
+
+    <p>Hi! I am a Mum who is going on this new Tech-Journey
+    </p></div>
+
+    <div class="connect lightgrey-border">
+
+      <h6><strong>Connect</strong></h6>
+      <p>
+
+        <a href="facebook.com" target="_blank" class="social">
+          <span>Facebook</span>
+        </a> |
+        <a href="twitter.com" target="_blank" class="social">
+          <span>Twitter</span>
+        </a> |
+        <a href="pinterest.com" target="_blank" class="social">
+          <span>Pinterest</span>
+        </a>
+
+
+
+      </p>
+    </div>
+
+    <div class="thought lightgrey-border">
+      <p>
+        <h6><strong>Thought of the day</strong></h6>
+        "Choose to look at the positives within challenging situations."
+      </p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
