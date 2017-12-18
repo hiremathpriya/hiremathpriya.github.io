@@ -23,6 +23,20 @@ body {
   margin-bottom: 4rem;
 }
 
+.main-banner > a > img {
+  display: inline-block;
+  margin: 20px 5px 20px 10px;
+  float: left;
+  width: 35px;
+  height: 35px;
+}
+
+.main-banner > h1 {
+  display: inline-block;
+}
+
+
+
 .image {
   display: inline-block;
   border: 2px solid white;
