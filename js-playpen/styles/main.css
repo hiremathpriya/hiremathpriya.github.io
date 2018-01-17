@@ -1,0 +1,246 @@
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-style: normal;
+  color: black;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.main-banner {
+  text-align: center;
+  font-style: oblique;
+  color: white;
+  background-color: black;
+
+  margin-bottom: 4rem;
+}
+
+.main-banner > a > img {
+  display: inline-block;
+  margin: 20px 5px 20px 10px;
+  float: left;
+  width: 35px;
+  height: 35px;
+}
+
+.main-banner > h1 {
+  display: inline-block;
+}
+
+
+
+.image {
+  display: inline-block;
+  border: 2px solid white;
+  padding: 2px;
+  margin: 7px;
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  vertical-align: top;
+}
+
+.summary-blog {
+  display: inline-block;
+  padding:  5px;
+  margin-top: 2px;
+  height: 46%;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.About-author {
+  display: block;
+  /*  border: 2px solid white;*/
+  padding: 5px;
+  padding-left: 5px;
+  /*  margin: 2px;*/
+  box-sizing: border-box;
+  text-align: center;
+
+}
+
+.top-5 {
+  margin-top: 5px;
+}
+
+.thought {
+  display: inline-block;
+  /*  border: 2px solid white;*/
+  padding: 2px;
+  /*  margin: 2px;*/
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.connect {
+  display: inline-block;
+  text-align: center;
+  /*  padding-left: 2px;
+  /*  border: 1px solid rgba(60, 68, 80, 0.07);*/
+  width: 100%;
+}
+
+.container-blog {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+@media (min-width: 400px) {
+  .main-banner {
+    text-align: center;
+    font-style: oblique;
+    color: white;
+    background-color: black;
+    width: 100%;
+    margin-bottom: 4rem;
+
+  }
+
+  .container-blog {
+    width: 85%;
+    padding: 0;
+  }
+}
+
+@media (min-width: 550px) {
+  .container-blog {
+    width: 80%;
+  }
+  .column,
+  .columns {
+    margin-left: 4%;
+    text-align: center;
+  }
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0; }
+    .main-banner {
+      text-align: center;
+      font-style: oblique;
+      color: white;
+      background-color: black;
+      width: 100%;
+      margin-bottom: 4rem;
+    }
+
+    .container-sidebar {
+      width: 100%;
+      /*border: 1px solid rgba(60, 68, 80, 0.07);*/
+      display: inline-block;
+      vertical-align: top;
+    }
+
+  }
+
+@media (min-width: 400px) {
+    .container-sidebar {
+      width: 85%;
+      padding: 0; }
+      h6 {
+        color: darkorange;
+      }
+    }
+    @media (min-width: 550px) {
+      .container-sidebar {
+        width: 80%; }
+        .column,
+        .columns {
+          margin-left: 4%; }
+          .column:first-child,
+          .columns:first-child {
+            margin-left: 0; }
+            h6 {
+              color: darkorange;
+            }
+          }
+
+
+          .lightgrey-border {
+            border: 1px solid rgba(60, 68, 80, 0.07);
+            margin-bottom: 20px;
+          }
+
+          .my-image {
+            border-radius: 60px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            box-sizing: border-box;
+            vertical-align: top;
+          }
+
+          .inline-block {
+            display: inline-block;
+            width: 70%;
+          }
+
+          div {
+            border: 1px solid white;
+          }
+
+          /*p {
+            text-align: center;
+          }*/
+          .blog-text {
+            text-align: left;
+          }
+          .blog-text answer {
+            text-align: left;
+          }
+
+          .social {
+            margin: 12px;
+          }
+
+          .question {
+            font-weight: bold;
+          }
+        /*  .gradients {
+            background:  blue; /* For browsers that do not support gradients */
+  /*  background: -gra-webkit-lineardient(black, lightgrey); /* For Safari 5.1 to 6.0 */
+  /*  background: -o-linear-gradient(black, lightgrey); /* For Opera 11.1 to 12.0 */
+  /*  background: -moz-linear-gradient(black, lightgrey); /* For Firefox 3.6 to 15 */
+  /*  background: linear-gradient(black, lightgrey); /* Standard syntax (must be last) */
+
+
+  /*  width: 100px;
+    height: 100px;
+    background-color: red;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0
+@-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+ Standard syntax
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+}
+*/
+
+img.trump {
+
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 2px;
+}
