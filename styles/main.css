@@ -40,6 +40,7 @@ body {
 .image {
   display: inline-block;
   border: 2px solid white;
+  
   padding: 2px;
   margin: 7px;
   box-sizing: border-box;
