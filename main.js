@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(){
+/*document.addEventListener("DOMContentLoaded", function(){
     console.log("hello!");
     
 draw();
@@ -10,15 +10,15 @@ draw();
 
     });
 
-   /* console.log("Hello!");
-var  my_canvas = document.getElementById("canvas");
-console.log("hello!");
+    
+/*var  my_canvas = document.getElementById("canvas");
+
 var context = "30px Garamond";
 
 context.fillText("hello!" , 15, 175);
 
 
-/*
+
 var context = my_canvas.msGetInputContext();
 console.log("hello again!");
  context.beginPath();
@@ -28,7 +28,7 @@ context.stroke();
 console.log("this is last one!");
 context.fillRect(10,10,50,20);
 context.fillStyle = "blue";
-*/
+
 
 function draw() {
     console.log("hello again!");
@@ -48,7 +48,37 @@ function draw() {
       ctx.stroke();
       
 
+    }*/
+    
+
+    function main(){
+        $image = $(".image").hide().fadeIn(6000);
+        
+       /*$image = $(".image").fadeIn(6000);*/
     }
-  }
+  
+  $(document).ready(main);
 
 
+
+// following code reads the tags and adds to the #page-tags at the top
+
+  /*$("div.summary-blog span[name='tags']").each((index, element)  => {
+      
+    console.dir(element);
+    console.log('found the tag:' + $(element).text());
+
+    const link = document.createElement('a');
+    link.innerText = $(element).text();
+    link.setAttribute('href', '#');
+    link.setAttribute('class', 'margin-10px');
+
+
+    const textToAdd = $('#page-tags').text() + $(element).text() + ' ' ;
+    console.log('adding text :  ' + textToAdd);
+   // $('#page-tags').text(textToAdd);
+
+    $('#page-tags').append(link);
+  });*/
+
+  
